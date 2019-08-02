@@ -1,10 +1,10 @@
 <script>
-	export let name;
+	const name = 'ashnamuh';
 </script>
 
 <style>
 	h1 {
-		color: purple;
+		color: blue;
 	}
 </style>
 
