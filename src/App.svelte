@@ -1,7 +1,9 @@
 <script>
 import TheHeader from './components/TheHeader.svelte';
+import Count from './components/Count.svelte';
 
 const name = 'ashnamuh';
+
 </script>
 
 <style>
@@ -12,3 +14,4 @@ const name = 'ashnamuh';
 
 <TheHeader></TheHeader>
 <h1>Hello {name}!</h1>
+<Count></Count>
