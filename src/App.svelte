@@ -1,5 +1,7 @@
 <script>
-	const name = 'ashnamuh';
+import TheHeader from './components/TheHeader.svelte';
+
+const name = 'ashnamuh';
 </script>
 
 <style>
@@ -8,4 +10,5 @@
 	}
 </style>
 
+<TheHeader></TheHeader>
 <h1>Hello {name}!</h1>
