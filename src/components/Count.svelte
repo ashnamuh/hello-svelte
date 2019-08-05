@@ -3,6 +3,8 @@ let count = 0;
 
 $: doubled = count * 2;
 
+$: console.log(`the count is ${count}`);
+
 setInterval(() => {
 	count++
 }, 1000)
