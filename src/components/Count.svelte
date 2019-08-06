@@ -1,9 +1,9 @@
 <script>
-let count = 0;
+let count = 0
 
-$: doubled = count * 2;
+$: doubled = count * 2
 
-$: console.log(`the count is ${count}`);
+$: console.log(`the count is ${count}`)
 
 setInterval(() => {
   count++
