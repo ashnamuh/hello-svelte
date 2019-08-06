@@ -6,6 +6,7 @@ import Props from './components/Props.svelte'
 import ArrayList from './components/ArrayList.svelte'
 import IfElse from './components/IfElse.svelte'
 import Each from './components/Each.svelte'
+import Await from './components/Await.svelte'
 
 const name = 'ashnamuh'
 
@@ -35,3 +36,4 @@ const jaemok = {
 <ArrayList></ArrayList>
 <IfElse></IfElse>
 <Each></Each>
+<Await></Await>
