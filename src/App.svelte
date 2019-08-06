@@ -4,6 +4,7 @@ import Count from './components/Count.svelte';
 import Event from './components/Event.svelte';
 import Props from './components/Props.svelte';
 import ArrayList from './components/ArrayList.svelte';
+import IfElse from './components/IfElse.svelte';
 
 const name = 'ashnamuh';
 
@@ -31,3 +32,4 @@ const jaemok = {
 <Props name="ashnamuh" age={ashnamuh.age}></Props>
 <Props {...jaemok}></Props>
 <ArrayList></ArrayList>
+<IfElse></IfElse>
