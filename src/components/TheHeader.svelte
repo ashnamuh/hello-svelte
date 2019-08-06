@@ -1,5 +1,5 @@
 <script>
-	const elementId = 'the-header'
+  const elementId = 'the-header'
 </script>
 
 <header id={elementId}>

@@ -9,20 +9,20 @@ import IfElse from './components/IfElse.svelte';
 const name = 'ashnamuh';
 
 const ashnamuh = {
-	age: 23
+  age: 23
 }
 
 const jaemok = {
-	name: 'Jaemok',
-	age: 23
+  name: 'Jaemok',
+  age: 23
 }
 
 </script>
 
 <style>
-	h1 {
-		color: blue;
-	}
+  h1 {
+    color: blue;
+  }
 </style>
 
 <TheHeader></TheHeader>

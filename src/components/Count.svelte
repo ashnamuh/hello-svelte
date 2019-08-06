@@ -6,7 +6,7 @@ $: doubled = count * 2;
 $: console.log(`the count is ${count}`);
 
 setInterval(() => {
-	count++
+  count++
 }, 1000)
 </script>
 
