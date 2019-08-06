@@ -5,6 +5,7 @@ import Event from './components/Event.svelte';
 import Props from './components/Props.svelte';
 import ArrayList from './components/ArrayList.svelte';
 import IfElse from './components/IfElse.svelte';
+import Each from './components/Each.svelte';
 
 const name = 'ashnamuh';
 
@@ -33,3 +34,4 @@ const jaemok = {
 <Props {...jaemok}></Props>
 <ArrayList></ArrayList>
 <IfElse></IfElse>
+<Each></Each>
