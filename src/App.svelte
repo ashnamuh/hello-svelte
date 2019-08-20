@@ -7,6 +7,7 @@ import ArrayList from './components/ArrayList.svelte'
 import IfElse from './components/IfElse.svelte'
 import Each from './components/Each.svelte'
 import Await from './components/Await.svelte'
+import DynamicClass from './components/DynamicClass.svelte'
 
 const name = 'ashnamuh'
 
@@ -37,3 +38,4 @@ const jaemok = {
 <IfElse></IfElse>
 <Each></Each>
 <Await></Await>
+<DynamicClass></DynamicClass>
