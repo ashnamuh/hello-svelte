@@ -10,10 +10,10 @@ let favorite = ''
 </script>
 
 <select multiple bind:value={selected}>
-	<option value="Vue">Vue</option>
-	<option value="Angular">Angular</option>
-	<option value="React">React</option>
-	<option value="Svelte">Svelte</option>
+  <option value="Vue">Vue</option>
+  <option value="Angular">Angular</option>
+  <option value="React">React</option>
+  <option value="Svelte">Svelte</option>
 </select>
 
 <p>selected values are {selected}</p>
