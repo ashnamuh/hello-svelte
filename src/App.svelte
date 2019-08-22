@@ -10,6 +10,7 @@ import Await from './components/Await.svelte'
 import DynamicClass from './components/DynamicClass.svelte'
 import Bind from './components/Bind.svelte'
 import Login from './components/Login.svelte'
+import Slot from './components/Slot.svelte'
 
 const name = 'ashnamuh'
 
@@ -43,3 +44,4 @@ const jaemok = {
 <DynamicClass></DynamicClass>
 <Bind></Bind>
 <Login></Login>
+<Slot></Slot>
