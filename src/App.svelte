@@ -11,6 +11,7 @@ import DynamicClass from './components/DynamicClass.svelte'
 import Bind from './components/Bind.svelte'
 import Login from './components/Login.svelte'
 import Slot from './components/Slot.svelte'
+import Self from './components/Self.svelte'
 
 const name = 'ashnamuh'
 
@@ -45,3 +46,4 @@ const jaemok = {
 <Bind></Bind>
 <Login></Login>
 <Slot></Slot>
+<Self></Self>
