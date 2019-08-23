@@ -12,6 +12,7 @@ import Bind from './components/Bind.svelte'
 import Login from './components/Login.svelte'
 import Slot from './components/Slot.svelte'
 import Self from './components/Self.svelte'
+import Component from './components/Component.svelte'
 
 const name = 'ashnamuh'
 
@@ -47,3 +48,4 @@ const jaemok = {
 <Login></Login>
 <Slot></Slot>
 <Self></Self>
+<Component></Component>
